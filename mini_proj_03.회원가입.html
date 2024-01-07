@@ -19,6 +19,7 @@
         #terms{
             width: 16px;
             height: auto;
+            cursor:pointer;
         }
         #submit{
             width: 360px;
@@ -27,18 +28,21 @@
             border-style: hidden;
             margin-top:20px;
             height: 40px;
+            cursor:pointer;
         }
         img{
             width: 90px;
             position: relative;
             right: 10px;
             bottom: 10px;
-            
+        }
+        select{
+            cursor:pointer;
         }
     </style>
 </head>
 <body>
-    <img src="img/naver_logo.png">
+    <a href="https://www.naver.com" target="_blank"><img src="img/naver_logo.png"></a>
     <div class="register_form01">
         <fieldset>
             <form>
@@ -159,7 +163,7 @@
         </form>
     </fieldset>
         <form>
-            <input type="button" value="인증 요청" id="submit" style="color:white">
+            <button type="submit" id="submit" style="color:white">인증 요청</button>
         </form>
 </body>
 </html>
