@@ -68,12 +68,19 @@ textarea {
   padding: 0px;
   border-style: solid;
   border-width: 2px;
-  border-color: seagreen;
+  border-color: black
 }
 .chat_bt {
   border-style: solid;
-  border-color: seagreen;
+  border-color: black;
   border-width: 2px;
+  border-bottom-width: 2px;
   border-left-style: hidden;
   height: 100%;
+}
+.read_check{
+position: relative;
+top: 35px;
+left: 10px;
+color: yellow;
 }
